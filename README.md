@@ -1,2 +1,2 @@
 # express-yourself
-Codecademy project 
+Simple login page sends data to txt file 

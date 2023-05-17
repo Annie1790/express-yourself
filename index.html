@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<style>
+    body {
+        width: 100vw;
+        height: 100vh;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #wrapper {
+        background-color: cornsilk;
+        padding: 30px;
+        border: 1px solid burlywood;
+    }
+
+    #wrapper > * {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 30px;
+    }
+</style>
+
+<body>
+    <div id="wrapper">
+        <form method="post" action="">
+            <label>
+                Username:
+            </label>
+            <input name="username" type="text" placeholder="e.g. Admin">
+            <label>
+                Password:
+            </label>
+            <input name="password" type="password" placeholder="******">
+            <button type="submit" value="login">Login</button>
+        </form>
+    </div>
+</body>
+
+</html>
